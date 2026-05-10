@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YUDS RESSELER</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body{
+      background: linear-gradient(135deg,#0f0f0f,#1a1a2e,#16213e);
+      color:white;
+      padding:30px;
+      overflow-x:hidden;
+    }
+
+    .container{
+      max-width:900px;
+      margin:auto;
+    }
+
+    .header{
+      text-align:center;
+      margin-bottom:35px;
+    }
+
+    .header h1{
+      font-size:42px;
+      font-weight:800;
+      letter-spacing:3px;
+      background: linear-gradient(90deg,#00ffe7,#00b7ff,#ff00f7);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      margin-bottom:10px;
+    }
+
+    .header p{
+      color:#bdbdbd;
+      font-size:15px;
+    }
+
+    .card{
+      background: rgba(255,255,255,0.06);
+      border:1px solid rgba(255,255,255,0.1);
+      backdrop-filter: blur(15px);
+      border-radius:25px;
+      padding:25px;
+      margin-bottom:25px;
+      box-shadow:0 0 25px rgba(0,0,0,0.4);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+      box-shadow:0 0 30px rgba(0,255,231,0.3);
+    }
+
+    .card h2{
+      font-size:24px;
+      margin-bottom:20px;
+      color:#00ffe7;
+    }
+
+    .item{
+      display:flex;
+      justify-content:space-between;
+      padding:12px 0;
+      border-bottom:1px solid rgba(255,255,255,0.08);
+      font-size:16px;
+    }
+
+    .item:last-child{
+      border-bottom:none;
+    }
+
+    .price{
+      color:#00ff99;
+      font-weight:700;
+    }
+
+    .notice{
+      background: linear-gradient(135deg,#ff00cc,#3333ff);
+      padding:20px;
+      border-radius:20px;
+      text-align:center;
+      margin-top:30px;
+      box-shadow:0 0 20px rgba(255,0,200,0.4);
+    }
+
+    .notice h3{
+      margin-bottom:10px;
+      font-size:22px;
+    }
+
+    .notice p{
+      font-size:15px;
+      color:#f0f0f0;
+      margin:5px 0;
+    }
+
+    footer{
+      text-align:center;
+      margin-top:30px;
+      color:#999;
+      font-size:14px;
+    }
+
+    @media(max-width:600px){
+      .header h1{
+        font-size:32px;
+      }
+
+      .card h2{
+        font-size:20px;
+      }
+
+      .item{
+        font-size:14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <h1>YUDS RESSELER</h1>
+      <p>Official Pricelist Website</p>
+    </div>
+
+    <div class="card">
+      <h2>໑٠ Pricelist Via Login ֵ</h2>
+
+      <div class="item">
+        <span>1 Bulan FW</span>
+        <span class="price">48.000</span>
+      </div>
+
+      <div class="item">
+        <span>2 Bulan FW</span>
+        <span class="price">105.000</span>
+      </div>
+
+      <div class="item">
+        <span>3 Bulan FW</span>
+        <span class="price">162.000</span>
+      </div>
+
+      <div class="item">
+        <span>1 Year FW</span>
+        <span class="price">365.000</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>໑٠ Pricelist Via Gift ֵ</h2>
+
+      <div class="item">
+        <span>3 Bulan FW</span>
+        <span class="price">200.000</span>
+      </div>
+
+      <div class="item">
+        <span>6 Bulan FW</span>
+        <span class="price">270.000</span>
+      </div>
+
+      <div class="item">
+        <span>1 Year FW</span>
+        <span class="price">500.000</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>໑٠ Top Up Stars 🥞 ֵ ɞ</h2>
+
+      <div class="item"><span>50 Stars</span><span class="price">10.000</span></div>
+      <div class="item"><span>75 Stars</span><span class="price">18.000</span></div>
+      <div class="item"><span>100 Stars</span><span class="price">25.000</span></div>
+      <div class="item"><span>150 Stars</span><span class="price">40.000</span></div>
+      <div class="item"><span>200 Stars</span><span class="price">65.000</span></div>
+      <div class="item"><span>250 Stars</span><span class="price">73.000</span></div>
+      <div class="item"><span>350 Stars</span><span class="price">89.000</span></div>
+      <div class="item"><span>500 Stars</span><span class="price">129.000</span></div>
+      <div class="item"><span>750 Stars</span><span class="price">197.000</span></div>
+      <div class="item"><span>1.000 Stars</span><span class="price">263.000</span></div>
+    </div>
+
+    <div class="card">
+      <h2>໑٠ Pricelist Gift Emoji</h2>
+
+      <div class="item"><span>⋆10 Stars</span><span class="price">2.100</span></div>
+      <div class="item"><span>⋆15 Stars</span><span class="price">3.800</span></div>
+      <div class="item"><span>⋆25 Stars</span><span class="price">6.100</span></div>
+      <div class="item"><span>⋆50 Stars</span><span class="price">12.900</span></div>
+      <div class="item"><span>⋆75 Stars</span><span class="price">19.700</span></div>
+      <div class="item"><span>⋆100 Stars</span><span class="price">27.700</span></div>
+      <div class="item"><span>⋆150 Stars</span><span class="price">42.200</span></div>
+      <div class="item"><span>⋆200 Stars</span><span class="price">56.600</span></div>
+      <div class="item"><span>⋆250 Stars</span><span class="price">66.900</span></div>
+    </div>
+
+    <div class="card">
+      <h2>໑٠ Pricelist React Stars</h2>
+
+      <div class="item">
+        <span>100P / Stars</span>
+        <span class="price">Available</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>໑٠ Pricelist Boost Telegram 🥞 ֵ ɞ</h2>
+
+      <div class="item">
+        <span>Per Day</span>
+        <span class="price">100 / Day</span>
+      </div>
+
+      <div class="item">
+        <span>Per Week</span>
+        <span class="price">1.100 / Week</span>
+      </div>
+
+      <div class="item">
+        <span>Per Month</span>
+        <span class="price">3.600 / Month</span>
+      </div>
+    </div>
+
+    <div class="notice">
+      <h3>⚠ INFORMASI PENTING ⚠</h3>
+      <p>Patuhi SNK Website</p>
+      <p>Harga di dalam website akan terus di update</p>
+    </div>
+
+    <footer>
+      © 2026 YUDS RESSELER - All Rights Reserved
+    </footer>
+
+  </div>
+
+</body>
+                                     </html>
